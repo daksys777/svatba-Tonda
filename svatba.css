@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+
+        
+}
+
+
+
+body{
+    background-image: linear-gradient(rgba(255,255,240,0.6),rgba(255,255,240,0.6)),url(images/Pozad%C3%AD.jpg) ;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: 
+    
+}
+
+.header img{
+    justify-content: center;
+    height: 50vh;
+    object-position: center;
+    display: flex;
+    margin: auto;
+    position: relative;
+
+}
+
+.NasPribeh{
+    
+    background-image:  linear-gradient(rgba(70,70,70,0.8),rgba(70,70,70,0.8));
+    color: white;
+    padding-bottom: 5vh;
+    
+}
+
+.NasPribeh h1{
+    text-align: center;
+    margin-bottom:5vh;
+    padding-top:5vh;
+    
+}
+
+.NasPribeh p{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20vh;
+    position: absolute;
+    font-size: 30px;
+    bottom: 10%;
+    visibility: hidden;
+    
+    
+    
+}
+
+.prvniobrazek:hover p{
+    transition: 0.5s;
+    visibility: visible;
+    bottom:50%;
+}
+
+.druhyobrazek:hover p{
+    transition: 0.5s;
+    visibility: visible;
+    bottom:50%;
+}
+
+.tretiobrazek:hover p{
+    transition: 0.5s;
+    visibility: visible;
+    bottom:50%;
+}
+
+
+.obr{
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh;
+    position: relative;
+    margin-left: 15vh;   
+}
+
+.prvniobrazek img{
+
+    height: auto;
+    width: 80%;
+    border-radius: 5%;
+}
+
+.prvniobrazek:hover img{
+    opacity:0.6;
+}
+
+
+.druhyobrazek img{
+
+    height: auto;
+    width: 80%;
+    border-radius: 5%;
+
+}
+
+.druhyobrazek:hover img{
+    opacity:0.6;
+}
+
+
+
+.tretiobrazek img{
+
+    height: auto;
+    width: 80%;
+    border-radius: 5%;
+
+}
+
+.tretiobrazek:hover img{
+    opacity:0.6;
+}
+
+.DenD2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width:40%;
+    margin: auto;
+}
+
+.DenD3{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width:50%;
+    flex-basis: 33%;
+    margin: auto;
+    padding-top: 1vh;
+    text-align: center;
+}
+
+.DenD h1{
+    padding:10vh;
+    text-align: center;
+}
+
+.mapa iframe{
+    width: 100%;
+    margin-top: 15vh;
+}
+
+.dopravaaubytovani{
+    background-color:rgba(170, 151, 122, 0.8);
+    padding-bottom: 15vh;
+    text-align: center;
+    color: white;
+    line-height: 150%;
+}
+
+.dopravaaubytovani h1{
+    padding: 10vh;
+}
+
+.dopravaaubytovani2{
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+.program{
+    margin-bottom: 10vh;
+}
+
+.program h1{
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.program2{
+    display: flex;
+    width: 23%;
+    margin:auto;
+    padding-top: 10vh;
+    
+    
+}
+.program2 p{
+    position: absolute;
+    line-height: 150%;
+    padding-left: 15vh;
+}
+
+.Darky{
+    text-align: center;
+    padding: 5vh;
+    line-height: 150%;
+    margin: auto;
+    background-color: rgba(255, 251, 244, 0.9);
+}
+
+.Darky p{
+    padding-top: 5vh;
+    width: 60%;
+    margin: auto;
+}
+
+.menu{
+    text-align: center;
+    padding: 5vh;
+    line-height: 150%;
+    margin: auto;
+    background-color: rgba(70,70,70,0.8);
+    color:white;
+}
+
+.menu p{
+    padding-top: 5vh;
+    width: 60%;
+    margin: auto;
+}
+
+.osoby h1{
+    text-align: center;
+    padding-top: 15vh;
+    
+}
+
+.osobyobr{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 80%;
+    padding-top: 10vh;
+
+}
+
+.osobyobr img{
+        border-radius: 50%;
+}
+
+.osobytext{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    
+    text-align: center;
+}
+
+.osobytext h3{
+    width: 80%;
+    padding: 2vh;
+}
+
+.osobytext p{
+    width:90%;
+    line-height: 150%;
+}
+
+.form iframe{
+    width: 100%;
+}
